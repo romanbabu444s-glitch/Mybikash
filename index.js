@@ -1,7 +1,7 @@
 require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = 9028315483:AAGhg-_BCnIL3QSSRMivj1x28BYY6l7c56M;
+const token = '9028315483:AAGhg-_BCnIL3QSSRMivj1x28BYY6l7c56M';
 const ADMIN_CHAT_ID = 1329606881;
 
 const bot = new TelegramBot(token, { polling: true });
